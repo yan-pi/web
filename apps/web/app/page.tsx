@@ -1,9 +1,9 @@
-import { BlogPosts } from 'app/components/posts'
+import { BlogPosts } from "app/components/posts";
 
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
+      <h1 className="mb-8 font-serif text-2xl font-semibold tracking-tigh">
         My Portfolio
       </h1>
       <p className="mb-4">
@@ -17,5 +17,5 @@ export default function Page() {
         <BlogPosts />
       </div>
     </section>
-  )
+  );
 }
